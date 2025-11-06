@@ -17,7 +17,7 @@ namespace Teknik_Servis_Otomasyonu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Admin_Panel()); // Yeni sınıf adınız bu olmalı
+            Application.Run(new Giris_Panel()); // Yeni sınıf adınız bu olmalı
         }
     }
 }

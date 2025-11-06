@@ -72,6 +72,12 @@
     <Compile Include="Admin_Panel.Designer.cs">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Giriş Panel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="Admin_Panel.resx">
       <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Giriş Panel.resx">
       <DependentUpon>Giriş Panel.cs</DependentUpon>

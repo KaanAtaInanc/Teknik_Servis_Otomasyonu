@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
 using System.Data.SqlClient;
+
 using System.Security.Cryptography; //SQL SORGULARI İÇİN GEREKLİ OLAN KÜTÜPHANENİN EKLENMESİ, Bu kütüphane olmaadan sql kısmını ekleyemeyiz
 
 
@@ -57,6 +58,7 @@ namespace Teknik_Servis_Otomasyonu
                     Admin_Panel frm_Admin = new Admin_Panel();
                     frm_Admin.Show();
                     this.Hide();
+                    
                 }
               else if(LBL_Kontrol.Text =="Personel")
                 {

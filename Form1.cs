@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Teknik_Servis_Otomasyonu
 {
-    public partial class Personel_Panel : Form
+    public partial class Form1 : Form
     {
-        public Personel_Panel()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Personel_Panel_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
